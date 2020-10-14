@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 500px;
+  margin: auto;
+}
+.main {
+  background-color: #075d52;
+  display: inline-block;
+  justify-content: center;
+  width: 500px;
+  height: 100px;
+  color: #fbfffc;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.actionIcons i {
+  padding: 8px;
+  margin-right: 10px;
+}
+.actionIcons {
+  padding-right: 24px;
+}
+
+.info {
+  padding-top: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  border-bottom: 3px solid white;
+  margin-right: 190px;
+  margin-left: 190px;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
+/* Phone */
+.phoneIcons {
+  background-color: #054d47;
+
+  padding-left: 400px;
+  color: #ffffff;
+}
+.phoneIcons i {
+  padding: 4px;
+}
+
+/* Styling For Chat Component */
+.mainContainer {
+  width: 500px;
+  margin: auto;
+  background-color: #fffeff;
+}
+.userPhoto {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: red;
+}
+.main-container {
+  display: flex;
+  padding: 15px;
+}
+.name-time {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-top: 4px;
+}
+.name-time .name {
+  margin-top: 10px;
+}
+.name-time .time {
+  padding-left: 190px;
+}
+.messagePreview {
+  padding-top: 15px;
+  padding-left: 15px;
+}
